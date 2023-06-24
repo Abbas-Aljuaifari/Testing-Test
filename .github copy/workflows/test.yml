@@ -1,0 +1,21 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main  # Update with your desired branch name
+  pull_request:
+    branches:
+      - main  # Update with your desired branch name
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Choose the desired runner platform
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install  # Update with your package manager if necessary
+
