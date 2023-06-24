@@ -30,7 +30,7 @@ The `capitalize` function takes a string as an argument and returns the same str
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/kit0-0/testing_test.git`
+1. Clone the repository: `https://github.com/Abbas-Aljuaifari/Testing-Test.git`
 2. Install the dependencies: `npm install` or `yarn install` (replace with your preferred package manager)
 
 ## Running the Tests
